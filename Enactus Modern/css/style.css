@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #6222CC;
-    --secondary: #FBA504;
+    --secondary: #3d3d3d;
     --light: #F6F4F9;
     --dark: #04000B;
 }
@@ -20,6 +20,40 @@
     visibility: visible;
     opacity: 1;
 }
+/********** New CSS **********/
+.bg-primary {
+    background-color: #f6bd33 !important;
+}
+
+.container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 100%;
+}
+
+.text-primary {
+    color: #f6bd33 !important;
+}
+
+.text-secondary {
+    color: #F6F4F9 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f6bd33;
+    border-color: #f8cc64;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f6bd33;
+    border-color: #f8cc64;
+}
+
+.bg-dark {
+    background-color: #D98D00 !important;
+}
+
+/********** Old CSS **********/
 
 .back-to-top {
     position: fixed;
@@ -112,7 +146,7 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: rgba(0, 0, 0, 0.43) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -168,11 +202,12 @@ h6,
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
+        background: #ca932a63;
     }
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: #FFFFFF;
+        background: #ca932a63;
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
@@ -203,7 +238,7 @@ h6,
 
     .sticky-top.navbar-light .btn {
         color: var(--dark);
-        background: var(--secondary);
+        background: #f6bd33;
     }
 }
 
