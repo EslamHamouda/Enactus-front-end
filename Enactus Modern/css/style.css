@@ -69,8 +69,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-direction: row;
     align-items: center;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.sec-row{
+    display: flex;
+    flex-direction: row;
 }
 
 .s-size{
