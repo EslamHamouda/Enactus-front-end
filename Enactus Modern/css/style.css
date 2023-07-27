@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
+    --primary: #f6bd33;
     --secondary: #3d3d3d;
     --light: #F6F4F9;
     --dark: #04000B;
@@ -33,14 +33,6 @@
     color: #f6bd33 !important;
 }
 
-.text-secondary {
-    color: #f6bd33 !important;
-}
-
-.black-color{
-    color: #04000B !important;
-}
-
 .btn-primary {
     color: #fff;
     background-color: #f6bd33;
@@ -57,6 +49,43 @@
     background-color: #D98D00 !important;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e8b231;
+}
+
+.container-50{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.sec-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.s-size{
+    height: 250px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.sw-size{
+    height: auto;
+    width: 350px;
+    margin-right: 10px;
+}
 /********** Old CSS **********/
 
 .back-to-top {
